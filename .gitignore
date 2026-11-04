@@ -30,6 +30,13 @@ migrate_working_dir/
 .pub/
 /build/
 
+# Flutter generated plugin and build ephemerals
+**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+
 # Symbol processing related
 app.*.symbols
 
